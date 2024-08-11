@@ -21,7 +21,7 @@ spec:
       destination:
         server: https://kubernetes.default.svc
         namespace: {{env}}
-	 syncPolicy:
+      syncPolicy:
         syncOptions:
         - CreateNamespace=true
         automated:
